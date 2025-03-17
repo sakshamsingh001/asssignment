@@ -287,3 +287,109 @@ background-color: rgba(26, 144, 107, 1);
 text-align: center;
 
 }
+#why
+{
+    position: absolute;
+    width: 412px;
+height: 69px;
+top: 1490px;
+left: 703px;
+font-family: Public Sans;
+font-weight: 400;
+font-size: 36px;
+line-height: 82px;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(93, 225, 231, 1);
+}
+#because
+{
+    position: absolute;
+    width: 848px;
+height: 81px;
+top: 1569px;
+left: 509px;
+font-family: Public Sans;
+font-weight: 400;
+font-size: 20px;
+line-height: 136%;
+letter-spacing: 0%;
+text-align: center; 
+}
+#one
+{
+    position: absolute;
+    background-image: url(images/Frame\ 1000002093.png);
+    width: 455px;
+height: 157px;
+top: 1673px;
+left: 741px;
+gap: 456.02px;
+font-family: Public Sans;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+color: black;
+text-align: center;
+align-content: center;
+background-color: black;
+}
+#two
+{background-image: url(images/Frame\ 1000002093.png);
+    font-family: Public Sans;
+font-weight: 400px;
+font-size: 24px;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+width: 455px;
+height: 157px;
+top: 1964px;
+left: 297px;
+gap: 456.02px;
+position: absolute;
+align-content: center;
+color: black;
+}
+#three
+{
+    position: absolute;
+    width: 626px;
+    height: 417px;
+    top: 1872px;
+    left: 634.49px;
+    
+}
+#four{
+    position: absolute;
+    background-image: url(images/Frame\ 1000002094.png);
+    width: 455px;
+height: 157px;
+top: 1964px;
+left: 1250px;
+gap: 456.02px;
+font-family: Public Sans;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+align-content: center;
+color: black;
+
+}
+#five
+{
+    position: absolute;
+    width: 923px;
+    height: 85px;
+    top: 2289px;
+    left: 467px;
+    border-radius: 29px;
+    background-color: rgba(26, 144, 107, 1);
+    text-align: center;
+    align-content: center;
+}
+
