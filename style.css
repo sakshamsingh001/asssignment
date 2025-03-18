@@ -604,6 +604,11 @@ float: left;
 }
 
 .input-group label {
+    width: 175.8754425048828px;
+height: 36px;
+top: 4184px;
+left: 94px;
+
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -617,9 +622,9 @@ float: left;
     outline: none;
 }
 
-.full-width {
+/* .full-width {
     width: 100%;
-}
+} */
 
 .register-btn {
     background-color: green;
@@ -639,3 +644,118 @@ float: left;
 .register-btn:hover {
     background-color: darkgreen;
 }
+input
+{
+    width: 418px;
+height: 47px;
+top: 4234px;
+left: 90px;
+border-bottom-width: 1px;
+border-radius: 11px;
+
+}
+#e1
+{
+    position:absolute;
+    width: 858px;
+height: 584px;
+/* top: 4068px; */
+left: 1100px;
+/* background-color: blue; */
+border: 2px solid blue;
+
+}
+#e2
+{
+    width: 635px;
+height: 169.28988647460938px;
+position: relative;
+top: 5%;
+left: 15%;
+font-family: Public Sans;
+font-weight: 700;
+font-size: 36px;
+line-height: 52px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+color:  rgba(95, 225, 231, 1);
+
+
+}
+#e3
+{
+    width: 536px;
+height: 75.85765075683594px;
+position: relative;
+top: 5%;
+left: 20%;
+border-radius: 13px;
+background-color: rgba(26, 144, 107, 1);
+font-family: PT Sans;
+font-weight: 700;
+font-size: 36px;
+line-height: 58px;
+letter-spacing: 0px;
+text-align: center;
+}
+#e4
+{
+    width: 380px;
+height: 42.60498046875px;
+position: relative;
+top: 10%;
+left: 30%;
+font-family: PT Sans;
+font-weight: 700;
+font-size: 24px;
+line-height: 47px;
+letter-spacing: 0px;
+text-align: center;
+color:  rgba(95, 225, 231, 1);
+}
+#box
+{
+    width: 480px;
+    height: 25px;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    display: flex;
+   justify-content: space-between;
+}
+#box1
+{
+   
+    
+display: flex;
+}
+#box1 p
+{
+    position: relative;
+    left: 3%;
+}
+#box2
+{
+    justify-content: space-around;
+display: flex;
+}
+.footer a{
+    color: grey;
+    text-decoration: none;
+ }
+ .footer{
+    position: relative;
+    text-align: center;
+    width: 599px;
+height: 86px;
+top: 10%;
+left: 30%;
+color: gray;
+font-family: Poppins;
+font-weight: 400;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 4%;
+text-align: center;
+ }
