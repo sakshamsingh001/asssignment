@@ -759,3 +759,12 @@ line-height: 100%;
 letter-spacing: 4%;
 text-align: center;
  }
+ #social-media
+ {
+    position: relative;
+    width: 858px;
+height: 584px;
+top: 30%;
+left: 45%;
+
+ }
