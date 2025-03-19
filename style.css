@@ -10,8 +10,9 @@ body
 {
 width: 390px;
 color: white;
-/* height: 8000px;   */
+height: 100%;
 }
+
 
 #nav-bar,
 .back-image,
@@ -20,19 +21,16 @@ color: white;
 #rating,
 #background-effect,
 /* #IMGES     */
-.section,
-#section1,
-#section2,
-#registration-section,
+/* .section, */
+
+
 #e1,
 #e2,
 #e3,
 #e4,
 #box,
 #box1,
-#box2,
-/* #border-1, */
-.footer
+#box2
 {
     display: none;
 }
@@ -433,26 +431,25 @@ font-size: 14px;
 line-height: 17.27px;
 letter-spacing: 0%;
 text-align: center;
-
+color: blue;
+background-color: blue;
 }
-#sml1
-{
-    position: absolute;
+.section
+{   position: absolute;
     width: 319px;
 height: 436px;
 top: 1801px;
 left: 41px;
 border-radius: 12.09px;
-border: 1px solid rgba(95, 225, 231, 0.26);
+border: 2px solid rgba(95, 225, 231, 0.26);
 font-family: Public Sans;
 font-weight: 700;
 font-size: 20.72px;
 line-height: 33.39px;
 letter-spacing: 0%;
 text-align: center;
-
 }
-#sml2
+.s1 
 {
     position: relative;
     width: 204.36351013183594px;
@@ -460,11 +457,22 @@ height: 29.359264373779297px;
 top: 20px ;
 left: 43.18px;
 color:  rgba(95, 225, 231, 1);
+font-family: Public Sans;
+font-weight: 700;
+font-size: 20.72px;
+line-height: 33.39px;
+letter-spacing: 0%;
+text-align: center;
+
+
 
 }
-#sml3
+.img img 
 {
-    position: absolute;
+    display: none;
+}
+.img 
+{position: absolute;
     background-image: url(images/image.png);
     background-size: cover;
     width: 283px;
@@ -472,8 +480,7 @@ height: 112px;
 top: 77px;
 left: 15px;
 }
-#sml4
-{
+.c1{
     position: relative;
     width: 285px;
 height: 52px;
@@ -488,9 +495,8 @@ text-align: center;
 
 
 }
-#sml5
-{
-    position: relative;
+.c2 
+{  position: relative;
     width: 283px;
     height: 35px;
     top: 200px;
@@ -502,38 +508,175 @@ line-height: 17.27px;
 letter-spacing: 0%;
 text-align: center;
 
-
 }
-#sml6
-{
-    position: relative;
+.c3 
+{  position: relative;
     width: 285px;
     height: 36px;
     top: 225px;
     left: 17px;
     font-family: Public Sans;
-font-weight: 700;
+font-weight: 700px;
 font-size: 14px;
 line-height: 17.27px;
 letter-spacing: 0%;
 text-align: center;
 
 }
-#sml7
-{
+.c4 
+{  
     position: relative;
     width: 285px;
     height: 36px;
     top: 250px;
     left: 17px;  
     font-family: Public Sans;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 14px;
     line-height: 17.27px;
     letter-spacing: 0%;
     text-align: center;
+
+}
+#section1
+{
+    width: 319px;
+    height: 436px;
+    top: 2270px;
+    left: 41px;
+    border-radius: 12.09px;
+    position: absolute;
+    border: 2px solid rgba(95, 225, 231, 0.26);
+
+}
+#section2
+{
+    width: 319px;
+    height: 436px;
+    top: 2740px;
+    left: 41px;
+    border-radius: 12.09px;
+    position: absolute;
+    border: 2px solid rgba(95, 225, 231, 0.26);
+}
+#registration-section {
+    position: absolute;
+    width: 350px;
+    /* height: auto; */
+    top: 3206px; /* Adjusted dynamically */
+    /* left: 5px; */
+    border-bottom-width: 1px;
     
 }
+
+#registration-section h2 {
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    font-size: 20px; /* Adjusted for mobile */
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-bottom-width: 1px;
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column; /* Stacking inputs for smaller screens */
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group label {
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    outline: none;
+}
+
+.register-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 100%;
+    height: 45px;
+}
+
+.register-btn:hover {
+    background-color: darkgreen;
+}
+
+input {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+}
+.footer{
+    position: absolute;
+    top: 4000px;
+    font-family: Poppins;
+/* font-weight: 400; */
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 4%;
+text-align: center;
+align-items: center;
+color:  rgba(178, 179, 207, 1);
+text-decoration: none;
+
+
+position: relative;
+text-align: center;
+width: 350px;
+height: AUTO;
+top: 4000px;
+left: 15%;
+color: gray;
+font-family: Poppins;
+/* font-weight: 400; */
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 4%;
+text-align: center;
+}
+.footer a 
+{
+    color:  rgba(178, 179, 207, 1);
+text-decoration: none;
+}
+
+
+
 }
 /* BIGGER */
 /* BIGGER */
