@@ -1342,7 +1342,7 @@ border-radius: 11px;
     position:absolute;
     width: 858px;
 height: 584px;
-/* top: 4068px; */
+top: 4068px;
 left: 1100px;
 /* background-color: blue; */
 border: 2px solid blue;
@@ -1450,8 +1450,5 @@ line-height: 100%;
 letter-spacing: 4%;
 text-align: center;
  }
- #sml1
- {
-    display: none;
- }
+
 }
